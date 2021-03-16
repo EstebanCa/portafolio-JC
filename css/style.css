@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Handlee", cursive;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+header .bg-port-j {
+    background: gray;
+}
+
+header nav .container .navbar-brand img {
+    max-width: 180px;
+}
+
+header .row .col-lg-7 img {
+    max-width: 600px;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 80px;
+}
+
+header .row .col-lg-5 h1 {
+    text-align: center !important;
+    font-size: auto;
+    padding-top: 150px;
+    color: #000000;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#me {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+#me h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 80px;
+    color: #000000;
+}
+
+#me p {
+    text-align: justify;
+    padding-top: 50px;
+    font-size: 25px;
+    color: #000000;
+    padding-left: 100px;
+}
+
+#me .col-lg-5 img {
+    padding-top: 40%;
+    padding-bottom: 30%;
+    justify-content: center;
+}
+
+#hobbies {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    background-image: url(../img/Fondo4.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+#hobbies h1 {
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 100px;
+    font-size: 80px;
+    color: #000000;
+}
+
+#hobbies img {
+    padding-top: 40%;
+    padding-bottom: 30%;
+    position: relative;
+}
+
+#hobbies p {
+    text-align: justify;
+    padding-top: 50px;
+    font-size: 25px;
+    color: #000000;
+    padding-left: 100px;
+}
+
+#habilidades {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    background-image: url(../img/fondo3.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+#habilidades h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+#habilidades .row {
+    padding-top: 125px;
+}
+
+#habilidades {
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#habilidades .raw .col-card-habilidades {
+    width: 45%;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+#habilidades .raw .col-card-habilidades p {
+    color: #fff;
+}
+
+#galeria {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    background-image: url(../img/fondo5.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+#galeria {
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#galeria h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 80px;
+    color: #000000;
+}
+
+#galeria .raw .col-card-galeria {
+    width: 45%;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+#galeria .raw .col-card-galeria p {
+    color: #000000;
+}
+
+#contacto {
+    padding: 60px 0 80px;
+    text-align: center;
+}
+
+#contacto h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 80px;
+    color: #000000;
+}
+
+#contacto p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 40px;
+    color: #9c9c9c;
+}
+
+#contacto .container form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contacto .container form input {
+    width: 38%;
+    margin: 10px 15px;
+    padding: 9px 20px;
+    border-radius: 4px;
+}
+
+#contacto .container form button {
+    background: #000000;
+    color: #fff;
+    margin-top: 30px;
+    padding: 8px 50px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+#btn-elemento {
+    position: fixed;
+    z-index: 11;
+    top: 240px;
+    right: -30px;
+    transform: rotate(-90deg);
+    background: #808080;
+    color: #fff;
+    padding: 8px 32px;
+    border: none;
+    transition: .4s;
+    outline: none;
+}
+
+#btn-elemento.active {
+    right: 165px;
+    transition: .4s;
+}
+
+#cont-colors {
+    background: #4db0f3;
+    position: fixed;
+    z-index: 11;
+    top: 201px;
+    right: -204px;
+    padding: 20px;
+    transition: .4s;
+}
+
+#cont-colors.active {
+    right: 0;
+    transition: .4s;
+}
+
+#cont-colors #blue {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #151a3f;
+    outline: none;
+}
+
+#cont-colors #yellow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #FCCC28;
+    outline: none;
+}
+
+#cont-colors #original {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #808080;
+    outline: none;
+}
+
+#cont-colors #verde {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #30E680;
+    outline: none;
+}
+
+#cont-colors #naranja {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #EB502F;
+    outline: none;
+}
+
+#cont-colors h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+/*VARIANTES DE COLORES AZUL*/
+
+#body.blue header .bg-port-j {
+    transition: .4s;
+    background: #151a3f;
+}
+
+#body.blue #btn-elemento {
+    background: #151a3f;
+}
+
+#body.blue #contacto .container form button {
+    transition: .4s;
+    background: #151a3f;
+}
+
+#body.blue header .row .col-lg-5 h1 {
+    transition: .4s;
+    color: #151a3f;
+}
+
+#body.blue #me h1 {
+    transition: .4s;
+    color: #151a3f;
+}
+
+#body.blue #hobbies h1 {
+    transition: .4s;
+    color: #151a3f;
+}
+
+#body.blue #galeria h1 {
+    transition: .4s;
+    color: #151a3f;
+}
+
+#body.blue #contacto h1 {
+    transition: .4s;
+    color: #151a3f;
+}
+
+
+/*VARIANTES DE COLORES AMARILLO*/
+
+#body.yellow header .bg-port-j {
+    transition: .4s;
+    background: #FCCC28;
+}
+
+#body.yellow #btn-elemento {
+    background: #FCCC28;
+}
+
+#body.yellow #contacto .container form button {
+    transition: .4s;
+    background: #FCCC28;
+}
+
+#body.yellow header .row .col-lg-5 h1 {
+    transition: .4s;
+    color: #FCCC28;
+}
+
+#body.yellow #me h1 {
+    transition: .4s;
+    color: #FCCC28;
+}
+
+#body.yellow #hobbies h1 {
+    transition: .4s;
+    color: #FCCC28;
+}
+
+#body.yellow #habilidades h1 {
+    transition: .4s;
+    color: #FCCC28;
+}
+
+#body.yellow #galeria h1 {
+    transition: .4s;
+    color: #FCCC28;
+}
+
+#body.yellow #contacto h1 {
+    transition: .4s;
+    color: #FCCC28;
+}
+
+
+/*VARIANTES DE COLORES ORIGINAL*/
+
+#body.original header .bg-port-j {
+    transition: .4s;
+    background: #808080;
+}
+
+#body.original #btn-elemento {
+    background: #808080;
+}
+
+#body.original #contacto .container form button {
+    transition: .4s;
+    background: #000;
+}
+
+#body.original header .row .col-lg-5 h1 {
+    transition: .4s;
+    color: #000;
+}
+
+#body.original #me h1 {
+    transition: .4s;
+    color: #000;
+}
+
+#body.original #hobbies h1 {
+    transition: .4s;
+    color: #000;
+}
+
+#body.original #habilidades h1 {
+    transition: .4s;
+    color: #fff;
+}
+
+#body.original #galeria h1 {
+    transition: .4s;
+    color: #000;
+}
+
+#body.original #contacto h1 {
+    transition: .4s;
+    color: #000;
+}
+
+
+/*VARIANTES DE COLORES VERDE*/
+
+#body.verde header .bg-port-j {
+    transition: .4s;
+    background: #30E680;
+}
+
+#body.verde #btn-elemento {
+    background: #30E680;
+}
+
+#body.verde #contacto .container form button {
+    transition: .4s;
+    background: #30E680;
+}
+
+#body.verde header .row .col-lg-5 h1 {
+    transition: .4s;
+    color: #30E680;
+}
+
+#body.verde #me h1 {
+    transition: .4s;
+    color: #30E680;
+}
+
+#body.verde #hobbies h1 {
+    transition: .4s;
+    color: #30E680;
+}
+
+#body.verde #habilidades h1 {
+    transition: .4s;
+    color: #30E680;
+}
+
+#body.verde #galeria h1 {
+    transition: .4s;
+    color: #30E680;
+}
+
+#body.verde #contacto h1 {
+    transition: .4s;
+    color: #30E680;
+}
+
+
+/*VARIANTES DE COLORES NARANJA*/
+
+#body.naranja header .bg-port-j {
+    transition: .4s;
+    background: #EB502F;
+}
+
+#body.naranja #btn-elemento {
+    background: #EB502F;
+}
+
+#body.naranja #contacto .container form button {
+    transition: .4s;
+    background: #EB502F;
+}
+
+#body.naranja header .row .col-lg-5 h1 {
+    transition: .4s;
+    color: #EB502F;
+}
+
+#body.naranja #me h1 {
+    transition: .4s;
+    color: #EB502F;
+}
+
+#body.naranja #hobbies h1 {
+    transition: .4s;
+    color: #EB502F;
+}
+
+#body.naranja #habilidades h1 {
+    transition: .4s;
+    color: #EB502F;
+}
+
+#body.naranja #galeria h1 {
+    transition: .4s;
+    color: #EB502F;
+}
+
+#body.naranja #contacto h1 {
+    transition: .4s;
+    color: #EB502F;
+}
